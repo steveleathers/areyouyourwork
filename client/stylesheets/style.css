@@ -4,10 +4,26 @@ body {
 }
 h1 {
   font-size: 5em;
-  color: #ee000c;
-  font-family: 'Forza SSm A', 'Forza SSm B'; font-weight: 700; font-style: normal;
+  color: #43a2ca;
+  font-family: 'Forza SSm A', 'Forza SSm B'; font-weight: 700; font-style: bold;
+  padding: 1em;
 }
 p {
   font-family: 'Archer SSm A', 'Archer SSm B'; font-weight: 500; font-style: normal;
-  color: #cceecc;
+  color: #a8ddb5;
+  padding: 0.5em;
+  font-size: 2em;
+}
+footer {
+  font-family: 'Archer SSm A', 'Archer SSm B'; font-weight: 500; font-style: normal;
+  color: #a8ddb5;
+  padding-top: 5em;
+}
+footer a{
+  text-decoration: none;
+  color: #a8ddb5;
+}
+footer a:hover, a:active, a:visited{
+  text-decoration: none;
+  color: #e0f3db;
 }
