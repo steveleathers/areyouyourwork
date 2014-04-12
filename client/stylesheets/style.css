@@ -1,0 +1,13 @@
+body {
+  background: #333;
+  text-align: center;
+}
+h1 {
+  font-size: 5em;
+  color: #ee000c;
+  font-family: 'Forza SSm A', 'Forza SSm B'; font-weight: 700; font-style: normal;
+}
+p {
+  font-family: 'Archer SSm A', 'Archer SSm B'; font-weight: 500; font-style: normal;
+  color: #cceecc;
+}
