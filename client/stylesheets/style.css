@@ -8,11 +8,16 @@ h1 {
   font-family: 'Forza SSm A', 'Forza SSm B'; font-weight: 700; font-style: bold;
   padding: 1em;
 }
+h1 a:visited, a:hover, a:active, a:link {
+  text-decoration:none;
+  color: #43a2ca;
+}
 p {
   font-family: 'Archer SSm A', 'Archer SSm B'; font-weight: 500; font-style: normal;
   color: #a8ddb5;
   padding: 0.5em;
   font-size: 2em;
+  line-height: 1.4em;
 }
 footer {
   font-family: 'Archer SSm A', 'Archer SSm B'; font-weight: 500; font-style: normal;
@@ -26,4 +31,14 @@ footer a{
 footer a:hover, a:active, a:visited{
   text-decoration: none;
   color: #e0f3db;
+}
+#footnav {
+  list-style: none;
+}
+#footnav li{
+  display: inline;
+}
+#footnav a{
+  display: inline-block;
+  padding: 10px;
 }

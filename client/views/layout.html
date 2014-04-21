@@ -1,0 +1,15 @@
+<template name="layout">
+  <div class="container">
+    <h1><a href="{{pathFor 'tempIntro'}}">Are You Your Work?</a></h1>
+    <div id="main" class="row-fluid">
+      {{> yield}}
+    </div>
+  </div>
+  <footer class="navbar">
+    <ul id="footnav">
+      <li><a href="{{pathFor 'who'}}">who</a></li>
+      <li><a href="{{pathFor 'what'}}">what</a></li>
+      <li><a href="{{pathFor 'when'}}">when</a></li>
+    </ul>
+  </footer>
+</template>
