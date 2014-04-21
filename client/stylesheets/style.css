@@ -4,33 +4,37 @@ body {
 }
 h1 {
   font-size: 5em;
-  color: #43a2ca;
+  color: #39c;
   font-family: 'Forza SSm A', 'Forza SSm B'; font-weight: 700; font-style: bold;
   padding: 1em;
 }
 h1 a:visited, a:hover, a:active, a:link {
   text-decoration:none;
-  color: #43a2ca;
+  color: #39c;
+}
+p a:visited, a:hover, a:active, a:link {
+  text-decoration:none;
+  color: #39c;
 }
 p {
   font-family: 'Archer SSm A', 'Archer SSm B'; font-weight: 500; font-style: normal;
-  color: #a8ddb5;
+  color: #ccc;
   padding: 0.5em;
   font-size: 2em;
   line-height: 1.4em;
 }
 footer {
   font-family: 'Archer SSm A', 'Archer SSm B'; font-weight: 500; font-style: normal;
-  color: #a8ddb5;
+  color: #ccc;
   padding-top: 5em;
 }
 footer a{
   text-decoration: none;
-  color: #a8ddb5;
+  color: #ccc;
 }
 footer a:hover, a:active, a:visited{
   text-decoration: none;
-  color: #e0f3db;
+  color: #39c;
 }
 #footnav {
   list-style: none;
